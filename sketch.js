@@ -23,27 +23,27 @@ function draw() {
 
 	// draw ufo
 	fill(100, 100, 100);
-	ellipse(mouseX, mouseY - 60, 100, 50);
-	ellipse(mouseX, mouseY - 80, 50, 60);
+	ellipse(mouseX, mouseY - 30, 100, 50);
+	ellipse(mouseX, mouseY - 40, 50, 60);
 
 	//draw ufo windows
 	fill(75, 75, 75);
-	ellipse(mouseX - 50, mouseY - 60, 10, 10);
-	ellipse(mouseX - 25, mouseY - 60, 10, 10);
-	ellipse(mouseX, mouseY - 60, 10, 10);
-	ellipse(mouseX + 25, mouseY - 60, 10, 10);
-	ellipse(mouseX + 50, mouseY - 60, 10, 10);
+	ellipse(mouseX - 50, mouseY - 30, 10, 10);
+	ellipse(mouseX - 25, mouseY - 30, 10, 10);
+	ellipse(mouseX, mouseY - 30, 10, 10);
+	ellipse(mouseX + 25, mouseY - 30, 10, 10);
+	ellipse(mouseX + 50, mouseY - 30, 10, 10);
 
 	//make ufo flash
 	if (mouseIsPressed) {
 
 		fill(random(0, 255), random(0, 255), random(0, 255));
-		ellipse(mouseX - 50, mouseY - 60, 10, 10);
-		ellipse(mouseX - 25, mouseY - 60, 10, 10);
-		ellipse(mouseX, mouseY - 60, 10, 10);
-		ellipse(mouseX + 25, mouseY - 60, 10, 10);
-		ellipse(mouseX + 50, mouseY - 60, 10, 10);
-		ellipse(mouseX, mouseY - 40, 30, 5);
+		ellipse(mouseX - 50, mouseY - 30, 10, 10);
+		ellipse(mouseX - 25, mouseY - 30, 10, 10);
+		ellipse(mouseX, mouseY - 30, 10, 10);
+		ellipse(mouseX + 25, mouseY - 30, 10, 10);
+		ellipse(mouseX + 50, mouseY - 30, 10, 10);
+		ellipse(mouseX, mouseY - 10, 30, 5);
 
 	//make spotlight
 	  ellipse(mouseX, 310, 65, 20);
